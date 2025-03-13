@@ -76,7 +76,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import { useColorMode } from '@nuxtjs/color-mode';
 
 const colorMode = useColorMode();
 const isMenuOpen = ref(false);
