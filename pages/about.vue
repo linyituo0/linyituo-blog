@@ -8,11 +8,15 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="md:col-span-1">
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
-          <div class="aspect-square bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-            <p class="text-gray-500 dark:text-gray-400">个人照片</p>
+          <div class="aspect-square bg-gray-200 dark:bg-gray-700 flex items-center justify-center relative">
+            <img src="/images/m2.jpeg" alt="个人照片" class="w-full h-full object-cover" />
+            
+            <div class="absolute top-0 right-0 w-16 h-16">
+              <HeartCanvas />
+            </div>
           </div>
           <div class="p-6">
-            <h2 class="text-xl font-bold text-gray-800 dark:text-white mb-2">林一坨</h2>
+            <h2 class="text-xl font-bold text-gray-800 dark:text-white mb-2">林一拓</h2>
             <p class="text-gray-600 dark:text-gray-400 mb-4">网站开发者 / 摄影爱好者</p>
             
             <div class="flex space-x-4 mt-6">

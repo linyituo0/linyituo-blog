@@ -16,8 +16,12 @@
             </div>
           </div>
           <div class="md:w-1/2 p-8 flex items-center justify-center">
-            <div class="w-full max-w-md h-64 bg-indigo-200 rounded-lg flex items-center justify-center">
-              <p class="text-indigo-600 font-medium">封面图片位置</p>
+            <div class="w-full max-w-md h-48 md:h-64 lg:h-80 bg-indigo-200 rounded-lg overflow-hidden">
+              <img 
+                src="/images/hanfu-girl.jpeg" 
+                alt="封面图片" 
+                class="w-full h-full object-cover" 
+              />
             </div>
           </div>
         </div>
